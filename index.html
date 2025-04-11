@@ -8,13 +8,13 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      background: #fff; 
-      color: #000;
+      background: #111;
+      color: white;
       font-family: Arial, sans-serif;
     }
     canvas {
-      background: transparent; 
-      border: none; 
+      background: #222;
+      border: 1px solid #555;
       margin-top: 20px;
     }
   </style>
@@ -61,7 +61,7 @@
     window.onload = () => {
       const canvas = document.getElementById('canvas');
       const ctx = canvas.getContext('2d');
-      ctx.fillStyle = "black"; 
+      ctx.fillStyle = "lime"; 
       drawCircleMidpoint(ctx, 300, 200, 100); 
     };
   </script>
